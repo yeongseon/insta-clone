@@ -28,7 +28,8 @@ const FeedPosts = () => {
                 </Skeleton>
 
             </VStack>
-        ))}
+            ))
+        }
 
         {!isLoading && (
             <>
